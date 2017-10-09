@@ -12,6 +12,7 @@ public class MyTest {
 	public void test() {
 		Desktop desktop = new Desktop("Stanton", "Cary");
 		Assert.assertEquals("Stanton", desktop.getName());
+		Assert.assertEquals("Cary",  desktop.getAddress());
 	}
 
 }
