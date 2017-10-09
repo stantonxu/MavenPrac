@@ -11,6 +11,8 @@ public class MyTest {
 		Desktop desktop = new Desktop("Stanton", "Cary");
 		Assert.assertEquals("Stanton", desktop.getName());
 		Assert.assertEquals("Cary",  desktop.getAddress());
+		
+		Assert.assertEquals("default address", desktop.getDefaultAddress());
 	}
 
 }

@@ -31,6 +31,12 @@ public class Desktop {
 		this.address = address;
 	}
 	
-	
+	public String getDefaultAddress() {
+		return SubDesktop.name;
+	}
 
+}
+
+class SubDesktop {
+	public static String name = "default address";
 }
