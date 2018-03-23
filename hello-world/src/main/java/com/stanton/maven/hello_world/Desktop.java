@@ -7,6 +7,7 @@ public class Desktop {
 
 	public Desktop() {
 		// TODO Auto-generated constructor stub
+		
 	}
 
 	public String getName() {
